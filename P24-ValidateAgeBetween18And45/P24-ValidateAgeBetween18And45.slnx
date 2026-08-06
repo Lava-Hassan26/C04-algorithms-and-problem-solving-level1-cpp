@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="P24-ValidateAgeBetween18And45.vcxproj" Id="a0b09b4e-cda8-45d3-8618-081638a58e1d" />
+</Solution>
