@@ -8,15 +8,15 @@ bool ValidateNumberInRange(short number, short from, short to)
     return (number >= from && number <= to);
 }
 
-short ReadUntilAgeBetween()
+short ReadUntilAgeBetween(short from, short to)
 {
     short age = 0;
     cout << "Enter your age: ";
     cin >> age;
 
-    while (!ValidateNumberInRange(age, 18, 45))
+    while (!ValidateNumberInRange(age, from, to))
     {
-        cout << "INVALID! Enter a valid age between 18 and 45: ";
+        cout << "INVALID! Enter a valid age between "<< from << " and " << to <<": ";
         cin >> age;
     }
 
@@ -30,7 +30,7 @@ void PrintResult(short age)
 
 int main()
 {
-    PrintResult(ReadUntilAgeBetween());
+    PrintResult(ReadUntilAgeBetween(18,45));
 
     return 0;
 }
