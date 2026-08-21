@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="P35-PiggyBankCalculator.vcxproj" Id="7670b990-c970-452f-8e71-403cb3d3d58b" />
+</Solution>
